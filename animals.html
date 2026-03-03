@@ -1,0 +1,128 @@
+<!DOCTYPE html> <!-- This tells the browser this is an HTML5 page -->
+<html lang="en"> <!-- This starts the page and says it is in English -->
+
+<head>
+    <meta charset="UTF-8"> <!-- This lets the page use all letters and symbols -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- This helps the page look good on phones -->
+    <link rel="stylesheet" href="css/citrus.css"> <!-- This connects the CSS file to make the page look nice -->
+    <title>Animals</title> <!-- This is the name shown on the browser tab -->
+</head>
+
+<body> <!-- Everything people see on the page goes inside the body -->
+
+<!-- This is the top part of the website -->
+<header class="site-header">
+  <div class="header-container">
+
+    <!-- This is the zoo logo -->
+    <div class="logo">
+        <img src="images/Farhan_s_ZOO-removebg-preview.png" alt="Zoo Logo">
+    </div>
+
+    <!-- This is the big title and small sentence under it -->
+    <div class="header-text">
+        <h1>Farhan's ZOO</h1>
+        <p>Bringing you the latest of our Fascinating Animals</p>
+    </div>
+
+    <!-- This is the menu with links to other pages -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li> <!-- Link to home page -->
+        <li><a href="animals.html">Animals</a></li> <!-- Link to animals page -->
+        <li><a href="admission.html">Admission</a></li> <!-- Link to admission page -->
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+<main> <!-- This is the main part of the page -->
+
+  <!-- This section shows all the animals -->
+  <section class="animals-section">
+      <h2 class="animals-title">Meet Our Animals</h2> <!-- Big section title -->
+      <h3 class="animals-subtitle">
+        Come explore some of the most fascinating creatures in our zoo!
+      </h3> <!-- Smaller sentence under the title -->
+
+    <!-- This holds all the animal cards -->
+    <div class="cards">
+
+      <!-- This is one animal card -->
+      <div class="card" data-name="Apollo" data-desc="Meet Apollo, the 250 kilo king whose roar can be heard from five miles away.">
+          <img src="images/lion.jpg" alt="Lion"> <!-- Picture of the lion -->
+          <div class="card-text hidden"></div> <!-- Hidden text that shows when clicked -->
+      </div> 
+
+      <!-- Tiger card -->
+      <div class="card" data-name="Zhang" data-desc="Watch out for Zhang, a 500-pound shadow with a coat as unique as a fingerprint.">
+          <img src="images/Tiger.jpg" alt="Tiger"> <!-- Picture of the tiger -->
+          <div class="card-text hidden"></div> <!-- Hidden text for tiger -->
+      </div>
+
+      <!-- Elephant card -->
+      <div class="card" data-name="Abdul" data-desc="Say hello to Abdul, a genius with 40,000 muscles in his trunk alone">
+          <img src="images/Elephant.jpg" alt="Elephant"> <!-- Picture of the elephant -->
+          <div class="card-text hidden"></div> <!-- Hidden text for elephant -->
+      </div>
+
+      <!-- Gorilla card -->
+      <div class="card" data-name="Monique" data-desc="Observe Monique, our closest cousin with ten times the strength of a man.">
+          <img src="images/Gorilla.jpg" alt="Gorilla"> <!-- Picture of the gorilla -->
+          <div class="card-text hidden"></div> <!-- Hidden text for gorilla -->
+      </div>
+
+      <!-- Giraffe card -->
+      <div class="card" data-name="Luna" data-desc="Look up at Luna, an 18-foot masterpiece with a heart the size of a basketball.">
+          <img src="images/giraffe.jpg" alt="Giraffe"> <!-- Picture of the giraffe -->
+          <div class="card-text hidden"></div> <!-- Hidden text for giraffe -->
+      </div>
+
+      <!-- Jaguar card -->
+      <div class="card" data-name="Alejandro" data-desc="Come spot Alejandro, the jungle ghost who rules the land, the trees, and the water.">
+          <img src="images/jaguar.jpg" alt="Jaguar"> <!-- Picture of the jaguar -->
+          <div class="card-text hidden"></div> <!-- Hidden text for jaguar -->
+      </div>
+
+      <!-- Rhino card -->
+      <div class="card" data-name="Tank" data-desc="Watch Tank, a three-ton armored relic that can outrun an Olympic sprinter.">
+          <img src="images/rhino.jpg" alt="Rhino"> <!-- Picture of the rhino -->
+          <div class="card-text hidden"></div> <!-- Hidden text for rhino -->
+      </div>
+
+      <!-- Hippo card -->
+      <div class="card" data-name="Gladies" data-desc="Witness Gladies, a 3,000-pound ballerina with a 2,000 PSI bite.">
+          <img src="images/hippo.jpg" alt="Hippo"> <!-- Picture of the hippo -->
+          <div class="card-text hidden"></div> <!-- Hidden text for hippo -->
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<!-- This is the bottom part of the website -->
+<footer>
+  <div class="footer-inner">
+
+    <!-- Social media pictures -->
+    <div class="social">
+      <img src="images/icon_facebook.png" alt="Facebook Icon">
+      <img src="images/icon_twitter.png" alt="Twitter Icon">
+    </div>
+
+    <!-- Contact information -->
+    <address>
+      <strong>Farhan's ZOO</strong><br>
+      324 Zoo Lane Drive, Mount Kilimanjaro, Tanzania 25101<br>
+      Phone: (935) 138-6517
+      Email: <a href="mailto:farhan.omane@maine.edu">farhan.omane@maine.edu</a>
+    </address>
+  </div>
+</footer>
+
+<!-- This connects the JavaScript file that makes the cards work -->
+<script src="scripts/scripts.js"></script>
+
+</body>
+</html>

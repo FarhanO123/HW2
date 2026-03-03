@@ -1,0 +1,172 @@
+<!DOCTYPE html> <!-- This tells the browser this is an HTML5 page -->
+<html lang="en"> <!-- This starts the HTML page and says it is in English -->
+<head> 
+    <meta charset="UTF-8"> <!-- This lets the page use all letters and symbols -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- This helps the page look good on phones -->
+    <link rel="stylesheet" href="css/citrus.css"> <!-- This connects the CSS file that makes the page look nice -->
+    <title>Farhan's Zoo | Store</title> <!-- This is the name shown on the browser tab -->
+</head>
+
+<body> <!-- This is where everything you SEE on the page goes -->
+
+<!-- This is the top part of the website -->
+<header class="site-header">
+  <div class="header-container"> <!-- This holds everything in the header -->
+    
+    <!-- This is the zoo logo -->
+    <div class="logo">
+        <img src="images/Farhan_s_ZOO-removebg-preview.png" alt="Zoo Logo">
+    </div>
+
+    <!-- This is the big title and small sentence under it -->
+    <div class="header-text">
+        <h1>Farhan's ZOO</h1>
+        <p>Bringing you the latest of our Fascinating Animals</p>
+    </div>
+
+    <!-- This is the navigation menu with links -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li> <!-- Link to home page -->
+        <li><a href="animals.html">Animals</a></li> <!-- Link to animals page -->
+        <li><a href="admission.html">Admission</a></li> <!-- Link to admission page -->
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main> <!-- This is the main content of the page -->
+
+<!-- Section for child tickets -->
+<section class="container content-section">
+    <h2 class="section-header">CHILD TICKETS</h2>
+    <div class="shop-items">
+        <div class="shop-item"> <!-- One item you can buy -->
+            <span class="shop-item-title">Child Annual Pass (Ages 3-12)</span> <!-- Name of ticket -->
+            <img class="shop-item-image" src="images/farhanzooticket.png" alt="Child Annual Pass"> <!-- Picture of ticket -->
+            <div class="shop-item-details">
+                <span class="shop-item-price">$49.99</span> <!-- Price of ticket -->
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button> <!-- Button to add to cart -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section for adult tickets -->
+<section class="container content-section">
+    <h2 class="section-header">ADULT TICKETS</h2>
+    <div class="shop-items">
+
+      <!-- Regular adult ticket -->
+      <div class="shop-item">
+        <span class="shop-item-title">Adult (Ages 13–64)</span>
+        <img class="shop-item-image" src="images/farhanzooticket.png" alt="Adult Ticket">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$17.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+
+      <!-- Adult annual pass -->
+      <div class="shop-item">
+        <span class="shop-item-title">Adult Annual Pass (Ages 13–64)</span>
+        <img class="shop-item-image" src="images/farhanzooticket.png" alt="Adult Annual Pass">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$89.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+
+    </div>
+</section>
+
+<!-- Section for senior and veteran tickets -->
+<section class="container content-section">
+    <h2 class="section-header">SENIOR & VETERAN TICKETS</h2>
+    <div class="shop-items">
+
+      <!-- Senior ticket -->
+      <div class="shop-item">
+        <span class="shop-item-title">Senior (Ages 65+)</span>
+        <img class="shop-item-image" src="images/farhanzooticket.png" alt="Senior Ticket">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$11.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+
+      <!-- Veteran ticket -->
+      <div class="shop-item">
+        <span class="shop-item-title">Veteran (Valid Military ID)</span>
+        <img class="shop-item-image" src="images/farhanzooticket.png" alt="Veteran Ticket">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$11.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+
+      <!-- Senior/Veteran annual pass -->
+      <div class="shop-item">
+        <span class="shop-item-title">Senior/Veteran Annual Pass</span>
+        <img class="shop-item-image" src="images/farhanzooticket.png" alt="Senior Veteran Annual Pass">
+        <div class="shop-item-details">
+          <span class="shop-item-price">$59.99</span>
+          <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+
+    </div>
+</section>
+
+<!-- This is the shopping cart section -->
+<section class="container content-section">
+    <h2 class="section-header">CART</h2>
+
+    <!-- These are the column titles -->
+    <div class="cart-row">
+      <span class="cart-item cart-header cart-column">ITEM</span>
+      <span class="cart-price cart-header cart-column">PRICE</span>
+      <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+
+    <!-- Items added to cart will show here -->
+    <div class="cart-items"></div>
+
+    <!-- This shows the total price -->
+    <div class="cart-total">
+      <strong class="cart-total-title">Total</strong>
+      <span class="cart-total-price">$0</span>
+    </div>
+
+    <!-- Button to buy everything in the cart -->
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+
+</main>
+
+<!-- This is the bottom part of the website -->
+<footer>
+  <div class="footer-inner">
+
+    <!-- Social media icons -->
+    <div class="social">
+      <img src="images/icon_facebook.png" alt="Facebook Icon">
+      <img src="images/icon_twitter.png" alt="Twitter Icon">
+    </div>
+
+    <!-- Contact information -->
+    <address>
+      <strong>Farhan's ZOO</strong><br>
+      324 Zoo Lane Drive, Mount Kilimanjaro, Tanzania 25101<br>
+      Phone: (935) 138-6517
+      Email: <a href="mailto:farhan.omane@maine.edu">farhan.omane@maine.edu</a>
+    </address>
+  </div>
+</footer>
+
+<!-- These connect the JavaScript files that make the cart work -->
+<script src="scripts/scripts.js"></script>
+<script src="scripts/store.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+Citation and Resource Disclosure
+Farhan’s Zoo Website Project
+Accessed March 2, 2026
+
+Animated GIFs Used on Index Page
+
+“Calendar, Almanac, Year GIF.” Pixabay, uploaded by locadiozafra.
+https://pixabay.com/gifs/calendar-almanac-year-rain-2904/
+
+Accessed March 2, 2026.
+
+“Wolf, Animal, Night GIF.” Pixabay, uploaded by DangrafArt.
+https://pixabay.com/gifs/wolf-animal-night-moon-gif-file-3874/
+
+Accessed March 2, 2026.
+
+Both GIFs were obtained under Pixabay’s free-use license for educational purposes.
+
+Animal Images
+
+Animal images used throughout the Animals page were sourced from Pexels (https://www.pexels.com).
+Images were used under Pexels’ free-use license and resized/optimized for web display.
+
+Original Graphics
+
+The Zoo logo and payment/ticket graphic were created by me using Canva design tools.
+No copyrighted third-party graphics were used in the creation of these materials.
+
+Development Resources
+
+HTML, CSS, and JavaScript documentation referenced from W3Schools (https://www.w3schools.com) for structural guidance and syntax clarification.
+
+All code was reviewed, modified, and understood prior to implementation.
+
+AI Usage Disclosure
+
+AI assistance was used for debugging support, structural validation, and clarification of HTML5 semantic elements.
+All generated suggestions were reviewed, tested, and adapted to meet assignment requirements. 
+
+
